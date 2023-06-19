@@ -1,0 +1,1 @@
+export const categories = ["business", "sports", "science", "hatke", "world", "politics"];
