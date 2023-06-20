@@ -15,18 +15,48 @@
         <button class="news__page--topics--buttons">Select Category</button>
       </div>
       <div class="news__page--topics">
-        <button class="news__page--topics--buttons">Business</button>
-        <button class="news__page--topics--buttons">All</button>
-        <button class="news__page--topics--buttons">Sports</button>
-        <button class="news__page--topics--buttons">World</button>
-        <button class="news__page--topics--buttons">Politics</button>
-        <button class="news__page--topics--buttons">Hatke</button>
+        <button
+          class="news__page--topics--buttons"
+          onclick="applyFilter('business')"
+        >
+          Business
+        </button>
+        <button
+          class="news__page--topics--buttons"
+          onclick="applyFilter('all')"
+        >
+          All
+        </button>
+        <button
+          class="news__page--topics--buttons"
+          onclick="applyFilter('sports')"
+        >
+          Sports
+        </button>
+        <button
+          class="news__page--topics--buttons"
+          onclick="applyFilter('world')"
+        >
+          World
+        </button>
+        <button
+          class="news__page--topics--buttons"
+          onclick="applyFilter('politics')"
+        >
+          Politics
+        </button>
+        <button
+          class="news__page--topics--buttons"
+          onclick="applyFilter('hatke')"
+        >
+          Hatke
+        </button>
       </div>
     </header>
     <div id="newNews"></div>
 
     <button class="home-page"><a href="./index.html">Home</a></button>
-    
+
     <script src="./newNews.js"></script>
   </body>
 </html>

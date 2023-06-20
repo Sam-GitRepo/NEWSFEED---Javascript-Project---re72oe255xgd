@@ -97,6 +97,7 @@
   background: #cfbc19;
   font-size: 14px;
   font-weight: 600;
+  cursor: pointer;
 }
 
 .home-page {
@@ -126,4 +127,16 @@
 
 .news__card--header--category {
   align-self: flex-end;
+}
+
+.like--icon--container {
+  cursor: pointer;
+  padding: 10px;
+}
+.like--btn {
+  fill: #ffffff;
+  stroke: #000000;
+}
+.like--btn--active {
+  fill: red;
 }

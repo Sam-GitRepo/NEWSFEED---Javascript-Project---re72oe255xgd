@@ -7,14 +7,14 @@ const likedNews = [];
 // when user click on saved news page then render the liked news
 
 function fetchNews(url) {
-    fetch(url).then((data) => {
-        data.json().then((res) => {
-            const newsHtml = ``;
-            res.forEach((element, index) => {
-                console.log(element);
-            });
-        })
+  fetch(url).then((data) => {
+    data.json().then((res) => {
+      const newsHtml = ``;
+      res.forEach((element, index) => {
+        console.log(element);
+      });
     })
+  })
 }
 
 const newsCard = ` <div class="news__card">

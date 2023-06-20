@@ -11,37 +11,52 @@
     <header class="news__page--header">
       <h1 class="news__page--constant">My News Feed</h1>
       <h1 class="news__page--current">Saved News</h1>
+      <div class="news__page--category">
+        <button class="news__page--topics--buttons">Select Category</button>
+      </div>
+      <div class="news__page--topics">
+        <button
+          class="news__page--topics--buttons"
+          onclick="applyFilter('business')"
+        >
+          Business
+        </button>
+        <button
+          class="news__page--topics--buttons"
+          onclick="applyFilter('all')"
+        >
+          All
+        </button>
+        <button
+          class="news__page--topics--buttons"
+          onclick="applyFilter('sports')"
+        >
+          Sports
+        </button>
+        <button
+          class="news__page--topics--buttons"
+          onclick="applyFilter('world')"
+        >
+          World
+        </button>
+        <button
+          class="news__page--topics--buttons"
+          onclick="applyFilter('politics')"
+        >
+          Politics
+        </button>
+        <button
+          class="news__page--topics--buttons"
+          onclick="applyFilter('hatke')"
+        >
+          Hatke
+        </button>
+      </div>
     </header>
-    <div class="news__card">
-      <div class="news__card--header">
-        <span class="news__card--header--name">By: Hritik Raj</span>
-        <span class="news__card--header--category">category: Business</span>
-      </div>
-      <div class="news__card--body">
-        BBC admits it unreported ₹40 crore of income in its tax returns in
-        India: Reports.
-        <a
-          class="news__card--link"
-          href="https://inshorts.com/en/news/bbc-admits-it-underreported-%E2%82%B940-crore-of-income-in-its-tax-returns-in-india-reports-1686035451564"
-          target="_blank"
-          >Read More.</a
-        >
-      </div>
-      <div class="like--icon--container">
-        <svg
-          xmlns="http://www.w3.org/2000/svg"
-          width="24"
-          height="24"
-          viewBox="0 0 24 24"
-        >
-          <path
-            d="M12 4.248c-3.148-5.402-12-3.825-12 2.944 0 4.661 5.571 9.427 12 15.808 6.43-6.381 12-11.147 12-15.808 0-6.792-8.875-8.306-12-2.944z"
-          />
-        </svg>
-      </div>
-    </div>
+    <div id="savedNews"></div>
 
     <button class="home-page"><a href="./index.html">Home</a></button>
+    <script src="./newNews.js"></script>
   </body>
 </html>
 
